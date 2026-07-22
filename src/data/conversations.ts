@@ -1,10 +1,10 @@
-export interface Conversations {
+export interface Conversation {
   id: number;
   title: string;
   date: string;
 }
 
-export const conversations: Conversations[] = [
+export const conversations: Conversation[] = [
   {
     id: 1,
     title: "Build Authentication API",
