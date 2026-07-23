@@ -11,9 +11,8 @@ import Welcome from "./components/Welcome.vue";
   <Header />
   <main>
     <Welcome />
-    <Statistics />
+    <Statistics /><ToolGrid />
     <ConversationList />
-    <ToolGrid />
   </main>
   <Footer />
 </template>
